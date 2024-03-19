@@ -11,6 +11,14 @@ alias dr='deno run'
 alias dra='deno run --allow-all'
 alias ddoc='deno doc'
 
+has_curl() {
+if command -v curl > /dev/null; then
+  return 0
+else
+  return 1
+fi
+}
+
 # Get deno doc from module in stdlib
 # TODO: Include getopt/getopts
 ddoc_std() {
