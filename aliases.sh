@@ -23,3 +23,15 @@ ddoc_std() {
   return 0
 }
 
+chtsh() {
+  local cht="https://cht.sh"
+  if [ "$#" -eq 0 ]; then
+    curl "$cht"
+    echo "No args" >&2
+    return 1
+  fi
+  curl "$cht/$1"
+  return 0
+}
+
+
