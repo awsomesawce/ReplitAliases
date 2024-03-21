@@ -1,5 +1,8 @@
 #!/bin/bash
 
+export PAGER="less" # TODO: Move this piece of code.
+export dnstd=https://deno.land/std@0.220.1
+
 alias ls='ls --color=auto'
 alias ll='ls -l'
 alias la='ls -a'
