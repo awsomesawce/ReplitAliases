@@ -34,7 +34,7 @@ function ll -d "ls long"
     end
 end
 
-function e -d "eza shortcut" -a
+function e -d "eza shortcut"
     # Use `and` and `or` instead of if statements or `&&` and `||`.
 
     begin
@@ -89,5 +89,6 @@ function rich_md -d "Using rich.markdown from the commandline"
 end
 
 # git stuff
-function gsm -d "short git submodule"
-    
+alias gsm='git submodule'
+alias gsmpull='git submodule foreach git pull'
+alias gsmpush='git submodule foreach git push'
