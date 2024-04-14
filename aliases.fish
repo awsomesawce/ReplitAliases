@@ -87,3 +87,7 @@ function rich_md -d "Using rich.markdown from the commandline"
     echo "You have $(count $argv) args on this function!"
     python -m rich.markdown $argv
 end
+
+# git stuff
+function gsm -d "short git submodule"
+    
