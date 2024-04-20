@@ -55,6 +55,8 @@ chtsh() {
       curl "$cht/$i"
     done
     return 0
+  else
+    echo "Looking up $*" 2>&1
   fi
   curl "$cht/$1"
   return 0
