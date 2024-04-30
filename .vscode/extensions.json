@@ -1,5 +1,12 @@
 {
     "recommendations": [
-        "bmalehorn.vscode-fish"
+        "bmalehorn.vscode-fish",
+        "github.github-vscode-theme",
+        "yzhang.markdown-all-in-one",
+        "timonwong.shellcheck",
+        "mkhl.shfmt",
+        "thenuprojectcontributors.vscode-nushell-lang",
+        "mads-hartmann.bash-ide-vscode",
+        "davidanson.vscode-markdownlint"
     ]
 }
